@@ -1,0 +1,1 @@
+Meu n tava rolando de fazer por makefile então vou botar os códigos de compilação aqui - Leandro
