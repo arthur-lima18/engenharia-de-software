@@ -10,15 +10,17 @@ class Researcher{
     public:
         virtual ~Researcher();
 
-        virtual void setName(string name);
+        virtual void setName(string newName);
         virtual string getName();
-        virtual void setJob(string job);
+        virtual void setPassword(string newPassword);
+        virtual string getPassword();
+        virtual void setJob(string newJob);
         virtual string getJob();
         virtual void setWorkingSince(string date);
         virtual string getWorkingSince();
 
-        virtual void acessOn();
-        virtual void acessOff();
+        virtual void setAdmin(bool value);
+        virtual bool isAdmin();
 };
 
 #endif

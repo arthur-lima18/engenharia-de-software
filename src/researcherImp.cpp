@@ -1,44 +1,56 @@
 #include "researcherImp.hpp"
 
-vector<Researcher*> ResearcherImp::team;
-
-ResearcherImp::ResearcherImp(string name, string job, string workingSince, bool access){
-    this->name = name;
-    this-> job = job;
-    this->workingSince = workingSince;
-    this->access = access;
+ResearcherImp::ResearcherImp(string initialName, string initialPassword, string initialJob, string timeWorkingSince, bool initialAccess){
+    name = initialName;
+    password = initialPassword;
+    job = initialJob;
+    workingSince = timeWorkingSince;
+    access = initialAccess;
 }
 
 ResearcherImp::~ResearcherImp(){}
 
-void ResearcherImp::setName(string name){
-    this->name = name;
+void ResearcherImp::setName(string newName){
+    name = newName;
 }
 
 string ResearcherImp::getName(){
-    return this->name;
+    return name;
 }
 
-void ResearcherImp::setJob(string job){
-    this->job = job;
+void ResearcherImp::setPassword(string newPassword){
+    password = newPassword;
+}
+
+string ResearcherImp::getPassword(){
+    return password;
+}
+
+
+void ResearcherImp::setJob(string newJob){
+    job = newJob;
 }
 
 string ResearcherImp::getJob(){
-    return this->job;
+    return job;
 }
 
 void ResearcherImp::setWorkingSince(string date){
-    this->workingSince = date;
+    workingSince = date;
 }
 
 string ResearcherImp::getWorkingSince(){
-    return this->workingSince;
+    return workingSince;
 }
 
-void ResearcherImp::accessOn(){
-    this->access = true;
+void ResearcherImp::setAdmin(bool value){
+    admin = value;
 }
 
-void ResearcherImp::accessOff(){
-    this->access = false;
+bool ResearcherImp::isAdmin(){
+    if(admin)
+        return true;
+
+    return false;
 }
+

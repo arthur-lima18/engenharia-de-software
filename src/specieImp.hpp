@@ -11,23 +11,21 @@ class SpecieImp : public Specie{
     bool nearExtinction;
     bool huntingTarget;
 
-    static vector<Specie*> allSpecies;
-
     public:
-        SpecieImp(string name, string hab, int pop, bool pred, bool ext, bool ht);
+        SpecieImp(string initialName, string hab, int pop, bool pred, bool ext, bool ht);
         virtual ~SpecieImp();
 
-        void setName(string name);
+        void setName(string newName);
         string getName();
-        void setHabitat(string habitat);
+        void setHabitat(string newHabitat);
         string getHabitat();
-        void setPopulation(int population);
+        void setPopulation(int newPopulation);
         int getPopulation();
-        void setPredator(bool predator);
+        void setPredator(bool isPredator);
         bool getPredator();
-        void setNearExtinction(bool nearExtinction);
+        void setNearExtinction(bool isNearExtinction);
         bool getNearExtinction();
-        void setHuntingTarget(bool huntingTarget);
+        void setHuntingTarget(bool isHuntingTarget);
         bool getHuntingTarget();
 };
 

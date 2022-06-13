@@ -1,1 +1,13 @@
-Meu n tava rolando de fazer por makefile então vou botar os códigos de compilação aqui - Leandro
+libs:
+	g++ -shared -fPIC src/*.cpp -o bin/libmyvensim.so -Wall
+
+functional tests:
+	g++ test/functional/*.cpp -L./bin bin/libmyvensim.so -Wl,-rpath,bin -o bin/functionalTests.out
+
+unit tests
+	g++ test/unit/*.cpp -L./bin bin/libmyvensim.so -Wl,-rpath,bin -o bin/unitTests.out
+
+A partir do bin:
+run:
+	functionalTests.out
+	unitTests.out

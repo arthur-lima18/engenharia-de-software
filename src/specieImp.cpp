@@ -1,62 +1,60 @@
 #include "specieImp.hpp"
 
-vector<Specie*> SpecieImp::allSpecies;
-
-SpecieImp::SpecieImp(string name, string hab, int pop, bool pred, bool ext, bool ht){
-    this->name = name;
-    this->habitat = hab;
-    this->population = pop;
-    this->predator = pred;
-    this->nearExtinction = ext;
-    this->huntingTarget = ht;
+SpecieImp::SpecieImp(string initialName, string hab, int pop, bool pred, bool ext, bool ht){
+    name = initialName;
+    habitat = hab;
+    population = pop;
+    predator = pred;
+    nearExtinction = ext;
+    huntingTarget = ht;
 }
 
 SpecieImp::~SpecieImp(){}
 
-void SpecieImp::setName(string name){
-    this->name = name;
+void SpecieImp::setName(string newName){
+    name = newName;
 }
 
 string SpecieImp::getName(){
-    return this->name;
+    return name;
 }
 
-void SpecieImp::setHabitat(string habitat){
-    this->habitat = habitat;
+void SpecieImp::setHabitat(string newHabitat){
+    habitat = newHabitat;
 }
 
 string SpecieImp::getHabitat(){
-    return this->habitat;
+    return habitat;
 }
 
-void SpecieImp::setPopulation(int population){
-    this->population = population;
+void SpecieImp::setPopulation(int newPopulation){
+    population = newPopulation;
 }
 
 int SpecieImp::getPopulation(){
-    return this->population;
+    return population;
 }
 
-void SpecieImp::setPredator(bool predator){
-    this->predator = predator;
+void SpecieImp::setPredator(bool isPredator){
+    predator = isPredator;
 }
 
 bool SpecieImp::getPredator(){
-    return this->predator;
+    return predator;
 }
 
-void SpecieImp::setNearExtinction(bool nearExtinction){
-    this->nearExtinction = nearExtinction;
+void SpecieImp::setNearExtinction(bool isNearExtinction){
+    nearExtinction = isNearExtinction;
 }
 
 bool SpecieImp::getNearExtinction(){
-    return this->nearExtinction;
+    return nearExtinction;
 }
 
-void SpecieImp::setHuntingTarget(bool huntingTarget){
-    this->huntingTarget = huntingTarget;
+void SpecieImp::setHuntingTarget(bool isHuntingTarget){
+    huntingTarget = isHuntingTarget;
 }
 
 bool SpecieImp::getHuntingTarget(){
-    return this->huntingTarget;
+    return huntingTarget;
 }
