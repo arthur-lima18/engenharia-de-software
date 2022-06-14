@@ -1,9 +1,11 @@
 #include "functionalTest.hpp"
+#include "../../src/researcherImp.hpp"
+#include "../../src/specieImp.hpp"
 
 void FunctionalTest::functionalTest(){
-    Specie* specie = new SpecieImp("Jacare-açu", "Pequenos rios", 2500, true, false, false);
+    Specie* specie = new SpecieImp("Jacare-acu", "Pequenos rios", 2500, true, false, false);
     Researcher* researcher = new ResearcherImp("Carlos", "1234", "Coordenador", "05/04/2022", true);
-    Database* database = new Database();
+    DatabaseImp* database = new Database();
 
     database->createSpecie(specie);
     database->createResearcher(researcher);
@@ -13,7 +15,7 @@ void FunctionalTest::functionalTest(){
     if(login == -1)
         return;
     
-    Researcher* user = database->getResearcher(login);
+    ResearcherImp* user = database->getResearcher(login);
     
     assert(user->getName() == "Carlos");
     assert(user->getPassword() == "1234");
@@ -21,14 +23,14 @@ void FunctionalTest::functionalTest(){
     assert(user->getWorkingSince() == "05/04/2022");
     assert(user->isAdmin() == true);
 
-    Specie* updateSpecie = new SpecieImp("Jacare-açu", "Pequenos rios", 1300, true, true, true);
+    SpecieImp* updateSpecie = new SpecieImp("Jacare-acu", "Pequenos rios", 1300, true, true, true);
 
     database->putSpecie(updateSpecie);
 
-    int positionSpecie = database->getPositionSpecie("Jacare-açu");
-    Specie* newSpecie = database->getSpecie(positionSpecie);
+    int positionSpecie = database->getPositionSpecie("Jacare-acu");
+    SpecieImp* newSpecie = database->getSpecie(positionSpecie);
 
-    assert(newSpecie->getName() == "Jacare-açu");
+    assert(newSpecie->getName() == "Jacare-acu");
     assert(newSpecie->getHabitat() == "Pequenos rios");
     assert(newSpecie->getPopulation() == 1300);
     assert(newSpecie->getPredator() == true);

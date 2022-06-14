@@ -13,12 +13,12 @@ class DatabaseImp : public Database{
         DatabaseImp();
         virtual ~DatabaseImp();
 
-        void createSpecie(Specie specie);
-        void createResearcher(Researcher researcher);
+        void createSpecie(Specie* specie);
+        void createResearcher(Researcher* researcher);
         void deleteSpecie(string name);
         void deleteResearcher(string name);
-        void putSpecie(Specie update);
-        void putResearcher(Researcher update);
+        void putSpecie(Specie* update);
+        void putResearcher(Researcher* update);
         Specie* getSpecie(int pos);
         vector<Specie*> getSpecies(); 
         Researcher* getResearcher(int pos);
