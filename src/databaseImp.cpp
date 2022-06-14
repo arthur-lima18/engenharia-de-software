@@ -21,12 +21,19 @@ void DatabaseImp::createResearcher(Researcher researcher) {
 }
 
 void DatabaseImp::deleteSpecie(string name) {
-    for(unsigned int i = 0; i < species.size(); i++){
+    for(auto i = 0; i < species.size(); i++){
         if(name == species[i]->getName()){
-            species.erase(researchers.begin() + i);
+            species.erase(i);
             cout << "Specie deleted succesfully" << endl;
         }
     }
+    /* auto i = species.begin();
+    while(i != species.end()){
+        if (name == species[i]->getName()){
+            species.erase(i);
+            cout << "Specie deleted succesfully" << endl;
+        }
+    } */
 }
 
 void DatabaseImp::deleteResearcher(string name) {
