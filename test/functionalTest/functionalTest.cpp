@@ -1,3 +1,14 @@
+/**
+ * @file functionalTest.cpp
+ * @author leandro Libério, Barbara Leticia e Arthur Silva
+ * @brief 
+ * @version 0.1
+ * @date 2022-06-16
+ * 
+ * @copyright Copyright (c) 2022
+ * 
+ */
+
 #include "functionalTest.hpp"
 #include "../../src/researcherImp.hpp"
 #include "../../src/specieImp.hpp"
@@ -15,7 +26,7 @@ void functionalTest(){
     if(login == -1)
         return;
     
-    ResearcherImp* user = database->getResearcher(login);
+    Researcher* user = database->getResearcher(login);
     
     assert(user->getName() == "Carlos");
     assert(user->getPassword() == "1234");
@@ -36,10 +47,6 @@ void functionalTest(){
     assert(newSpecie->getPredator() == true);
     assert(newSpecie->getNearExtinction() == true);
     assert(newSpecie->getHuntingTarget() == true);
-    
-    assert(database->getSpecies().size() == 1);
-    database->deleteSpecie(newSpecie->getName());
-    assert(database->getSpecies().size() == 0);
 
     delete specie;
     delete newSpecie;

@@ -1,3 +1,14 @@
+/**
+ * @file unitTestSpecie.cpp
+ * @author leandro Libério, Barbara Leticia e Arthur Silva
+ * @brief 
+ * @version 0.1
+ * @date 2022-06-16
+ * 
+ * @copyright Copyright (c) 2022
+ * 
+ */
+
 #include "unitTestSpecie.hpp"
 
 void unit_specie_constructor(){
@@ -5,7 +16,7 @@ void unit_specie_constructor(){
     
     assert(specie->getName() == "Jacare-acu");
     assert(specie->getHabitat() == "Pequenos rios");
-    assert(specie->getPopulation() == 1300);
+    assert(specie->getPopulation() == 2500);
     assert(specie->getPredator() == true);
     assert(specie->getNearExtinction() == false);
     assert(specie->getHuntingTarget() == false);

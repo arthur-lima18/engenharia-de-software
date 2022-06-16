@@ -1,3 +1,14 @@
+/**
+ * @file researcherImp.cpp
+ * @author leandro Libério, Barbara Leticia e Arthur Silva
+ * @brief 
+ * @version 0.1
+ * @date 2022-06-16
+ * 
+ * @copyright Copyright (c) 2022
+ * 
+ */
+
 #include "researcherImp.hpp"
 
 ResearcherImp::ResearcherImp(string initialName, string initialPassword, string initialJob, string timeWorkingSince, bool initialAccess){
@@ -44,13 +55,10 @@ string ResearcherImp::getWorkingSince(){
 }
 
 void ResearcherImp::setAdmin(bool value){
-    admin = value;
+    access = value;
 }
 
 bool ResearcherImp::isAdmin(){
-    if(admin)
-        return true;
-
-    return false;
+    return access;
 }
 

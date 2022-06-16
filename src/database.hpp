@@ -1,3 +1,14 @@
+/**
+ * @file database.hpp
+ * @author leandro Libério, Barbara Leticia e Arthur Silva
+ * @brief 
+ * @version 0.1
+ * @date 2022-06-16
+ * 
+ * @copyright Copyright (c) 2022
+ * 
+ */
+
 #ifndef DATABASE_HPP
 #define DATABASE_HPP
 
@@ -5,6 +16,7 @@
 #include "specie.hpp"
 #include <vector>
 #include <iostream>
+#include <assert.h>
 
 using namespace std;
 
@@ -22,7 +34,7 @@ class Database{
         virtual vector<Specie*> getSpecies() = 0;
         virtual Researcher* getResearcher(int pos) = 0;
         virtual int getPositionSpecie(string name) = 0;
-        virtual int getPositionReasercher(string name) = 0;
+        virtual int getPositionResearcher(string name) = 0;
 
         virtual int login(string name, string password) = 0;
 };

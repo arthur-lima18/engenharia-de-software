@@ -1,3 +1,14 @@
+/**
+ * @file unitTestDatabase.cpp
+ * @author leandro Libério, Barbara Leticia e Arthur Silva
+ * @brief 
+ * @version 0.1
+ * @date 2022-06-16
+ * 
+ * @copyright Copyright (c) 2022
+ * 
+ */
+
 #include "unitTestDatabase.hpp"
 
 void unit_database_destructor(){ }
@@ -9,7 +20,7 @@ void unit_database_createSpecie(){
     database->createSpecie(specie);
 
     int positionSpecie = database->getPositionSpecie("Jacare-acu");
-    SpecieImp* newSpecie = database->getSpecie(positionSpecie);
+    Specie* newSpecie = database->getSpecie(positionSpecie);
 
     assert(newSpecie->getName() == "Jacare-acu");
 
@@ -22,23 +33,16 @@ void unit_database_createResearcher(){
 
     database->createResearcher(researcher);
     
-    int positionReasearcher = database->getPositionReasearcher("Carlos");
-    SpecieImp* newResearcher = database->getResearcher(positionReasearcher);
-
+    int positionReasearcher = database->getPositionResearcher("Carlos");
+    Researcher* newResearcher = database->getResearcher(positionReasearcher);
+    
     assert(newResearcher->getName() == "Carlos");
 
     delete database;
 }
 
-void unit_database_deleteSpecie(){
-    Database* database = new DatabaseImp();
-    Specie* specie = new SpecieImp("Jacare-acu", "Pequenos rios", 2500, true, false, false);
+void unit_database_deleteResearcher(){
 
-    assert(database->getSpecies().size() == 1);
-    database->deleteSpecie("Jacare-acu");
-    assert(database->getSpecies().size() == 0);
-
-    delete database;
 }
 
 void unit_database_putSpecie(){
@@ -83,7 +87,7 @@ void unit_database_getSpecie(){
     database->createSpecie(specie);
 
     int positionSpecie = database->getPositionSpecie("Jacare-acu");
-    assert(database->getSpecie(positionSpecie) == "Jacare-acu");
+    assert(database->getSpecie(positionSpecie)->getName() == "Jacare-acu");
 
     delete database;
 }
@@ -95,7 +99,7 @@ void unit_database_getResearcher(){
     database->createResearcher(researcher);
 
     int positionResearcher = database->getPositionResearcher("Carlos");
-    assert(database->getResearcher(positionResearcher) == "Carlos");
+    assert(database->getResearcher(positionResearcher)->getName() == "Carlos");
 
     delete database;
 }
@@ -111,13 +115,13 @@ void unit_database_getPositionSpecie(){
     delete database;
 }
 
-void unit_database_getPositionReasearcher(){
+void unit_database_getPositionResearcher(){
     Researcher* researcher = new ResearcherImp("Carlos", "1234", "Coordenador", "05/04/2022", true);
     Database* database = new DatabaseImp();
 
-    database->createReasearcher(researcher);
+    database->createResearcher(researcher);
 
-    assert(database->getPositionReasearcher("Carlos") == 0);
+    assert(database->getPositionResearcher("Carlos") == 0);
 
     delete database;
 }
@@ -139,14 +143,11 @@ void run_unit_database(){
     unit_database_destructor();
     unit_database_createSpecie();
     unit_database_createResearcher();
-    unit_database_deleteSpecie();
-    unit_database_deleteResearcher();
     unit_database_putSpecie();
     unit_database_putResearcher();
     unit_database_getSpecie();
-    unit_database_getSpecies();
     unit_database_getResearcher();
     unit_database_getPositionSpecie();
-    unit_database_getPositionReasercher();
+    unit_database_getPositionResearcher();
     unit_database_login();
 }

@@ -1,7 +1,18 @@
+/**
+ * @file unitTestResearcher.cpp
+ * @author leandro Libério, Barbara Leticia e Arthur Silva
+ * @brief 
+ * @version 0.1
+ * @date 2022-06-16
+ * 
+ * @copyright Copyright (c) 2022
+ * 
+ */
+
 #include "unitTestResearcher.hpp"
 
 void unit_researcher_constructor(){
-    Researcher* researcher = new ResearcherImp("Carlos", "1234", "Coordenador", "05/04/2022", true);
+    Researcher* user = new ResearcherImp("Carlos", "1234", "Coordenador", "05/04/2022", true);
     
     assert(user->getName() == "Carlos");
     assert(user->getPassword() == "1234");
@@ -9,7 +20,7 @@ void unit_researcher_constructor(){
     assert(user->getWorkingSince() == "05/04/2022");
     assert(user->isAdmin() == true);
 
-    delete researcher;
+    delete user;
 }
 
 void unit_researcher_destructor(){ }
@@ -93,6 +104,8 @@ void unit_researcher_setAdmin(){
 
 void unit_researcher_isAdmin(){
     Researcher* researcher = new ResearcherImp("Carlos", "1234", "Coordenador", "05/04/2022", true);
+
+    cout << researcher->isAdmin() << endl;
 
     assert(researcher->isAdmin() == true);
 

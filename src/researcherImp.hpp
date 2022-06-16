@@ -1,3 +1,14 @@
+/**
+ * @file researcherImp.hpp
+ * @author leandro Libério, Barbara Leticia e Arthur Silva
+ * @brief 
+ * @version 0.1
+ * @date 2022-06-16
+ * 
+ * @copyright Copyright (c) 2022
+ * 
+ */
+
 #ifndef TEAMIMP_HPP
 #define TEAMIMP_HPP
 
@@ -9,7 +20,6 @@ class ResearcherImp : public Researcher{
     string job;
     string workingSince;
 
-    bool admin;
     bool access;
 
     static vector<Researcher*> team;
