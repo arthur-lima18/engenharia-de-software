@@ -14,6 +14,11 @@
 
 #include "functionalTest.hpp"
 
+/**
+ * @brief main function of the functional tests
+ * 
+ * @return int 
+ */
 int main() {
     functionalTest();
 

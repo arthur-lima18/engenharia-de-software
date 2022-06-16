@@ -16,6 +16,7 @@
 #include <assert.h>
 #include <string>
 
+///@brief function that execute the only functional test
 void functionalTest();
 
 #endif

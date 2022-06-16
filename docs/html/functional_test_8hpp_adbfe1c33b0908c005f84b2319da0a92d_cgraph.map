@@ -1,0 +1,21 @@
+<map id="functionalTest" name="functionalTest">
+<area shape="rect" id="node1" title="function that execute the only functional test" alt="" coords="5,436,108,463"/>
+<area shape="rect" id="node2" href="$class_database.html#a4af5a3ea5080cc233d43617579f4cd81" title="Create a Researcher object." alt="" coords="160,5,347,32"/>
+<area shape="rect" id="node3" href="$class_database.html#ab96e3134c8b0877551c72ec570163bfc" title="Create a Specie object." alt="" coords="173,56,334,83"/>
+<area shape="rect" id="node4" href="$class_specie.html#a9cfd5c0f5e32c14bc56d1ab464c3312c" title="Get the Habitat object." alt="" coords="189,107,318,133"/>
+<area shape="rect" id="node5" href="$class_specie.html#a2cc0c615c64b7b288763393fbdb9f3ad" title="Get the Hunting Target object." alt="" coords="169,157,337,184"/>
+<area shape="rect" id="node6" href="$class_researcher.html#ae94d87536239c2dbea3ad87c06223135" title="Get the Job object." alt="" coords="186,208,321,235"/>
+<area shape="rect" id="node7" href="$class_researcher.html#a9a855e72df3406a7d7705591713e4c2a" title="Get the Name object." alt="" coords="179,259,327,285"/>
+<area shape="rect" id="node8" href="$class_specie.html#a517e4d97520cfe95610c5f345a2eaddf" title="Get the Name object." alt="" coords="192,309,315,336"/>
+<area shape="rect" id="node9" href="$class_specie.html#ada87763e95655407358ad4436d4e0df2" title="Get the Near Extinction object." alt="" coords="167,360,340,387"/>
+<area shape="rect" id="node10" href="$class_researcher.html#a912a25a854f9aad71ec8fc554f864ee8" title="Get the Password object." alt="" coords="168,411,339,437"/>
+<area shape="rect" id="node11" href="$class_specie.html#a1b7b1f80dc7f34707e03cc9e74a6b92e" title="Get the Population object." alt="" coords="179,461,328,488"/>
+<area shape="rect" id="node12" href="$class_database.html#a817f1764760871d2fc0a00af21cfb32d" title="Get the Position Specie object in the database." alt="" coords="158,512,349,539"/>
+<area shape="rect" id="node13" href="$class_specie.html#ae3739577ccb1a1a0ba9249b66f0a3e42" title="Get the Predator object." alt="" coords="185,563,322,589"/>
+<area shape="rect" id="node14" href="$class_database.html#acabcaf4361f04d2add99f3a3842634ad" title="Get the Researcher object." alt="" coords="169,613,338,640"/>
+<area shape="rect" id="node15" href="$class_database.html#add20e481b52625a561275d18117b28eb" title="Get the Specie object." alt="" coords="182,664,325,691"/>
+<area shape="rect" id="node16" href="$class_researcher.html#aeb2343bef0eb3998db4e17cd0941610c" title="Get the Working Since object." alt="" coords="156,715,351,741"/>
+<area shape="rect" id="node17" href="$class_researcher.html#a25c07b2a7ef33b70e52a1eaf330643ea" title="get if the object is admin or not" alt="" coords="182,765,325,792"/>
+<area shape="rect" id="node18" href="$class_database.html#a1b84fd9cfaf520b66924a21fd3b15478" title="Validates if the Researcher object is in the database." alt="" coords="197,816,309,843"/>
+<area shape="rect" id="node19" href="$class_database.html#afb2b66259a0a74e092339d299abd6260" title="Update a Specie object." alt="" coords="182,867,325,893"/>
+</map>

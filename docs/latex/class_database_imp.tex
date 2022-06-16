@@ -1,0 +1,345 @@
+\hypertarget{class_database_imp}{}\doxysection{Database\+Imp Class Reference}
+\label{class_database_imp}\index{DatabaseImp@{DatabaseImp}}
+
+
+implementation Class that simulates the database  
+
+
+
+
+{\ttfamily \#include $<$database\+Imp.\+hpp$>$}
+
+
+
+Inheritance diagram for Database\+Imp\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=154pt]{class_database_imp__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Database\+Imp\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=154pt]{class_database_imp__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_database_imp_ad78ff3a7c6cc5fc6934c13e96c640928}\label{class_database_imp_ad78ff3a7c6cc5fc6934c13e96c640928}} 
+{\bfseries Database\+Imp} ()
+\begin{DoxyCompactList}\small\item\em Construct a new \mbox{\hyperlink{class_database}{Database}} Imp object. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_database_imp_aed42887d74e32c900d7102b103a3476c}\label{class_database_imp_aed42887d74e32c900d7102b103a3476c}} 
+virtual {\bfseries $\sim$\+Database\+Imp} ()
+\begin{DoxyCompactList}\small\item\em Destroy the \mbox{\hyperlink{class_database}{Database}} Imp object. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_database_imp_a214203f6e02515d16515aa2d84a60ecb}{create\+Specie}} (\mbox{\hyperlink{class_specie}{Specie}} $\ast$specie)
+\begin{DoxyCompactList}\small\item\em Create a \mbox{\hyperlink{class_researcher}{Researcher}} object. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_database_imp_a3cb72979625947012c3060bf2131f6a6}{create\+Researcher}} (\mbox{\hyperlink{class_researcher}{Researcher}} $\ast$researcher)
+\begin{DoxyCompactList}\small\item\em Create a \mbox{\hyperlink{class_researcher}{Researcher}} object. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_database_imp_a3e9ca934759c01f3d90c41c2ce53398e}{delete\+Specie}} (string name)
+\begin{DoxyCompactList}\small\item\em Delete a \mbox{\hyperlink{class_specie}{Specie}} object. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_database_imp_a35fc397d70669789b53b3217c8f72714}{delete\+Researcher}} (string name)
+\begin{DoxyCompactList}\small\item\em Delete a \mbox{\hyperlink{class_researcher}{Researcher}} object. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_database_imp_aae2caa4cc3e1e13690dd9b76e1f32e47}{put\+Specie}} (\mbox{\hyperlink{class_specie}{Specie}} $\ast$update)
+\begin{DoxyCompactList}\small\item\em Update a \mbox{\hyperlink{class_specie}{Specie}} object. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_database_imp_a4eeca9e28e85e46916c59077926d765c}{put\+Researcher}} (\mbox{\hyperlink{class_researcher}{Researcher}} $\ast$update)
+\begin{DoxyCompactList}\small\item\em Update a \mbox{\hyperlink{class_researcher}{Researcher}} object. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_specie}{Specie}} $\ast$ \mbox{\hyperlink{class_database_imp_a84c93da12739e9157339f6ebc675949d}{get\+Specie}} (int pos)
+\begin{DoxyCompactList}\small\item\em Get the \mbox{\hyperlink{class_specie}{Specie}} object. \end{DoxyCompactList}\item 
+vector$<$ \mbox{\hyperlink{class_specie}{Specie}} $\ast$ $>$ \mbox{\hyperlink{class_database_imp_a7f4990d1e4aeaf9bb5ca04a205709b5f}{get\+Species}} ()
+\begin{DoxyCompactList}\small\item\em Get the Species object. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_researcher}{Researcher}} $\ast$ \mbox{\hyperlink{class_database_imp_a8861168791c307522bc8b46e1d83270c}{get\+Researcher}} (int pos)
+\begin{DoxyCompactList}\small\item\em Get the \mbox{\hyperlink{class_researcher}{Researcher}} object. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_database_imp_a6b4acc85c9304c2357fc9553d795abff}{get\+Position\+Specie}} (string name)
+\begin{DoxyCompactList}\small\item\em Get the Position \mbox{\hyperlink{class_specie}{Specie}} object in the database. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_database_imp_a0bc3f7a127a0e6a3df1b26ca3dcc2d93}{get\+Position\+Researcher}} (string name)
+\begin{DoxyCompactList}\small\item\em Get the Position \mbox{\hyperlink{class_researcher}{Researcher}} object in the database. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_database_imp_a2bdca2befe426aa017cf1deeebef10c7}{login}} (string name, string password)
+\begin{DoxyCompactList}\small\item\em Validates if the \mbox{\hyperlink{class_researcher}{Researcher}} object is in the database. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+implementation Class that simulates the database 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_database_imp_a3cb72979625947012c3060bf2131f6a6}\label{class_database_imp_a3cb72979625947012c3060bf2131f6a6}} 
+\index{DatabaseImp@{DatabaseImp}!createResearcher@{createResearcher}}
+\index{createResearcher@{createResearcher}!DatabaseImp@{DatabaseImp}}
+\doxysubsubsection{\texorpdfstring{createResearcher()}{createResearcher()}}
+{\footnotesize\ttfamily void Database\+Imp\+::create\+Researcher (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_researcher}{Researcher}} $\ast$}]{researcher }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Create a \mbox{\hyperlink{class_researcher}{Researcher}} object. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em researcher$\ast$} & \mbox{\hyperlink{class_researcher}{Researcher}} object that will be add to the database \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{class_database_a4af5a3ea5080cc233d43617579f4cd81}{Database}}.
+
+\mbox{\Hypertarget{class_database_imp_a214203f6e02515d16515aa2d84a60ecb}\label{class_database_imp_a214203f6e02515d16515aa2d84a60ecb}} 
+\index{DatabaseImp@{DatabaseImp}!createSpecie@{createSpecie}}
+\index{createSpecie@{createSpecie}!DatabaseImp@{DatabaseImp}}
+\doxysubsubsection{\texorpdfstring{createSpecie()}{createSpecie()}}
+{\footnotesize\ttfamily void Database\+Imp\+::create\+Specie (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_specie}{Specie}} $\ast$}]{specie }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Create a \mbox{\hyperlink{class_researcher}{Researcher}} object. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em researcher$\ast$} & \mbox{\hyperlink{class_researcher}{Researcher}} object that will be add to the database \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{class_database_ab96e3134c8b0877551c72ec570163bfc}{Database}}.
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_database_imp_a214203f6e02515d16515aa2d84a60ecb_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_database_imp_a35fc397d70669789b53b3217c8f72714}\label{class_database_imp_a35fc397d70669789b53b3217c8f72714}} 
+\index{DatabaseImp@{DatabaseImp}!deleteResearcher@{deleteResearcher}}
+\index{deleteResearcher@{deleteResearcher}!DatabaseImp@{DatabaseImp}}
+\doxysubsubsection{\texorpdfstring{deleteResearcher()}{deleteResearcher()}}
+{\footnotesize\ttfamily void Database\+Imp\+::delete\+Researcher (\begin{DoxyParamCaption}\item[{string}]{name }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Delete a \mbox{\hyperlink{class_researcher}{Researcher}} object. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em name} & name of the object that will be erased from the database \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{class_database_ad044f614ee1189504c688a0651d76881}{Database}}.
+
+\mbox{\Hypertarget{class_database_imp_a3e9ca934759c01f3d90c41c2ce53398e}\label{class_database_imp_a3e9ca934759c01f3d90c41c2ce53398e}} 
+\index{DatabaseImp@{DatabaseImp}!deleteSpecie@{deleteSpecie}}
+\index{deleteSpecie@{deleteSpecie}!DatabaseImp@{DatabaseImp}}
+\doxysubsubsection{\texorpdfstring{deleteSpecie()}{deleteSpecie()}}
+{\footnotesize\ttfamily void Database\+Imp\+::delete\+Specie (\begin{DoxyParamCaption}\item[{string}]{name }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Delete a \mbox{\hyperlink{class_specie}{Specie}} object. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em name} & name of the object that will be erased from the database \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{class_database_a055b2df5e61dac95c52f948c82af11f8}{Database}}.
+
+\mbox{\Hypertarget{class_database_imp_a0bc3f7a127a0e6a3df1b26ca3dcc2d93}\label{class_database_imp_a0bc3f7a127a0e6a3df1b26ca3dcc2d93}} 
+\index{DatabaseImp@{DatabaseImp}!getPositionResearcher@{getPositionResearcher}}
+\index{getPositionResearcher@{getPositionResearcher}!DatabaseImp@{DatabaseImp}}
+\doxysubsubsection{\texorpdfstring{getPositionResearcher()}{getPositionResearcher()}}
+{\footnotesize\ttfamily int Database\+Imp\+::get\+Position\+Researcher (\begin{DoxyParamCaption}\item[{string}]{name }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Get the Position \mbox{\hyperlink{class_researcher}{Researcher}} object in the database. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em name} & of the researcher object that will be searched \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+int int position in the database vector of the researcher object 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{class_database_a8718bff0acd0a8a79ba84e78b115181a}{Database}}.
+
+\mbox{\Hypertarget{class_database_imp_a6b4acc85c9304c2357fc9553d795abff}\label{class_database_imp_a6b4acc85c9304c2357fc9553d795abff}} 
+\index{DatabaseImp@{DatabaseImp}!getPositionSpecie@{getPositionSpecie}}
+\index{getPositionSpecie@{getPositionSpecie}!DatabaseImp@{DatabaseImp}}
+\doxysubsubsection{\texorpdfstring{getPositionSpecie()}{getPositionSpecie()}}
+{\footnotesize\ttfamily int Database\+Imp\+::get\+Position\+Specie (\begin{DoxyParamCaption}\item[{string}]{name }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Get the Position \mbox{\hyperlink{class_specie}{Specie}} object in the database. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em name} & of the specie object that will be searched \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+int position in the database vector of the specie object 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{class_database_a817f1764760871d2fc0a00af21cfb32d}{Database}}.
+
+\mbox{\Hypertarget{class_database_imp_a8861168791c307522bc8b46e1d83270c}\label{class_database_imp_a8861168791c307522bc8b46e1d83270c}} 
+\index{DatabaseImp@{DatabaseImp}!getResearcher@{getResearcher}}
+\index{getResearcher@{getResearcher}!DatabaseImp@{DatabaseImp}}
+\doxysubsubsection{\texorpdfstring{getResearcher()}{getResearcher()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_researcher}{Researcher}} $\ast$ Database\+Imp\+::get\+Researcher (\begin{DoxyParamCaption}\item[{int}]{pos }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Get the \mbox{\hyperlink{class_researcher}{Researcher}} object. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em pos} & position in the database vector that researcher object is \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Researcher$\ast$ object returned 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{class_database_acabcaf4361f04d2add99f3a3842634ad}{Database}}.
+
+\mbox{\Hypertarget{class_database_imp_a84c93da12739e9157339f6ebc675949d}\label{class_database_imp_a84c93da12739e9157339f6ebc675949d}} 
+\index{DatabaseImp@{DatabaseImp}!getSpecie@{getSpecie}}
+\index{getSpecie@{getSpecie}!DatabaseImp@{DatabaseImp}}
+\doxysubsubsection{\texorpdfstring{getSpecie()}{getSpecie()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_specie}{Specie}} $\ast$ Database\+Imp\+::get\+Specie (\begin{DoxyParamCaption}\item[{int}]{pos }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Get the \mbox{\hyperlink{class_specie}{Specie}} object. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em pos} & position in the database vector that specie object is \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Specie$\ast$ object returned 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{class_database_add20e481b52625a561275d18117b28eb}{Database}}.
+
+\mbox{\Hypertarget{class_database_imp_a7f4990d1e4aeaf9bb5ca04a205709b5f}\label{class_database_imp_a7f4990d1e4aeaf9bb5ca04a205709b5f}} 
+\index{DatabaseImp@{DatabaseImp}!getSpecies@{getSpecies}}
+\index{getSpecies@{getSpecies}!DatabaseImp@{DatabaseImp}}
+\doxysubsubsection{\texorpdfstring{getSpecies()}{getSpecies()}}
+{\footnotesize\ttfamily vector$<$ \mbox{\hyperlink{class_specie}{Specie}} $\ast$ $>$ Database\+Imp\+::get\+Species (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Get the Species object. 
+
+\begin{DoxyReturn}{Returns}
+vector$<$\+Specie$\ast$$>$ 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{class_database_af6c0943fb05907652a2f2ea829cc82a0}{Database}}.
+
+\mbox{\Hypertarget{class_database_imp_a2bdca2befe426aa017cf1deeebef10c7}\label{class_database_imp_a2bdca2befe426aa017cf1deeebef10c7}} 
+\index{DatabaseImp@{DatabaseImp}!login@{login}}
+\index{login@{login}!DatabaseImp@{DatabaseImp}}
+\doxysubsubsection{\texorpdfstring{login()}{login()}}
+{\footnotesize\ttfamily int Database\+Imp\+::login (\begin{DoxyParamCaption}\item[{string}]{name,  }\item[{string}]{password }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Validates if the \mbox{\hyperlink{class_researcher}{Researcher}} object is in the database. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em name} & username of the researcher \\
+\hline
+{\em password} & password of the researcher \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+int 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{class_database_a1b84fd9cfaf520b66924a21fd3b15478}{Database}}.
+
+\mbox{\Hypertarget{class_database_imp_a4eeca9e28e85e46916c59077926d765c}\label{class_database_imp_a4eeca9e28e85e46916c59077926d765c}} 
+\index{DatabaseImp@{DatabaseImp}!putResearcher@{putResearcher}}
+\index{putResearcher@{putResearcher}!DatabaseImp@{DatabaseImp}}
+\doxysubsubsection{\texorpdfstring{putResearcher()}{putResearcher()}}
+{\footnotesize\ttfamily void Database\+Imp\+::put\+Researcher (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_researcher}{Researcher}} $\ast$}]{update }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Update a \mbox{\hyperlink{class_researcher}{Researcher}} object. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em update$\ast$} & \mbox{\hyperlink{class_researcher}{Researcher}} object that will be updated from the database \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{class_database_a5cfcf25f41aa7c07dd5eebc4124f6fca}{Database}}.
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_database_imp_a4eeca9e28e85e46916c59077926d765c_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_database_imp_aae2caa4cc3e1e13690dd9b76e1f32e47}\label{class_database_imp_aae2caa4cc3e1e13690dd9b76e1f32e47}} 
+\index{DatabaseImp@{DatabaseImp}!putSpecie@{putSpecie}}
+\index{putSpecie@{putSpecie}!DatabaseImp@{DatabaseImp}}
+\doxysubsubsection{\texorpdfstring{putSpecie()}{putSpecie()}}
+{\footnotesize\ttfamily void Database\+Imp\+::put\+Specie (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_specie}{Specie}} $\ast$}]{update }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Update a \mbox{\hyperlink{class_specie}{Specie}} object. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em update} & \mbox{\hyperlink{class_specie}{Specie}} object that will be updated from the database \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{class_database_afb2b66259a0a74e092339d299abd6260}{Database}}.
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_database_imp_aae2caa4cc3e1e13690dd9b76e1f32e47_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_database_imp_aae2caa4cc3e1e13690dd9b76e1f32e47_icgraph}
+\end{center}
+\end{figure}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+src/\mbox{\hyperlink{database_imp_8hpp}{database\+Imp.\+hpp}}\item 
+src/\mbox{\hyperlink{database_imp_8cpp}{database\+Imp.\+cpp}}\end{DoxyCompactItemize}

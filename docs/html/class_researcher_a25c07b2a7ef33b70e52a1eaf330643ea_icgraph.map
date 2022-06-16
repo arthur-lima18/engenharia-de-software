@@ -1,0 +1,14 @@
+<map id="Researcher::isAdmin" name="Researcher::isAdmin">
+<area shape="rect" id="node1" title="get if the object is admin or not" alt="" coords="673,132,816,159"/>
+<area shape="rect" id="node2" href="$functional_test_8cpp.html#adbfe1c33b0908c005f84b2319da0a92d" title="implementation of the only functional test" alt="" coords="477,5,579,32"/>
+<area shape="rect" id="node4" href="$class_database_imp.html#a4eeca9e28e85e46916c59077926d765c" title="Update a Researcher object." alt="" coords="433,56,623,83"/>
+<area shape="rect" id="node5" href="$unit_test_database_8cpp.html#a867d584207e8df35c90246e243a005eb" title="Unit test to check if database is updating a researcher correctly." alt="" coords="431,107,625,133"/>
+<area shape="rect" id="node9" href="$unit_test_researcher_8cpp.html#a5b5e69585436cd32ce22285f2c1bb0a0" title="Unit test of the researcher constructor." alt="" coords="437,157,619,184"/>
+<area shape="rect" id="node11" href="$unit_test_researcher_8cpp.html#a102ff3d8ba06281537f1424a332383f0" title="Unit test to check if is returning access condition of the researcher correctly." alt="" coords="445,208,611,235"/>
+<area shape="rect" id="node12" href="$unit_test_researcher_8cpp.html#aa4bdeba1dc5b9f18d11f47cd7620117b" title="Unit test to check if is setting adming access of a researcher correctly." alt="" coords="441,259,615,285"/>
+<area shape="rect" id="node3" href="$functional_test_2main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title="main function of the functional tests" alt="" coords="289,5,340,32"/>
+<area shape="rect" id="node6" href="$unit_test_database_8cpp.html#a8bf731ee942dbf9fdc108007db7a8370" title="run all unit tests of the database" alt="" coords="251,132,379,159"/>
+<area shape="rect" id="node7" href="$unit_test_8cpp.html#adc55d66d01b104380f72a64f36c4cb9d" title="implemenation of the function that runs all runit tests" alt="" coords="104,169,199,196"/>
+<area shape="rect" id="node8" href="$unit_test_2main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title="main function of the unit tests" alt="" coords="5,169,56,196"/>
+<area shape="rect" id="node10" href="$unit_test_researcher_8cpp.html#a4da8040f3362be267ad7c71824a4ac91" title="run all unit researcher tests" alt="" coords="247,195,383,221"/>
+</map>

@@ -11,6 +11,7 @@
 
 #include "unitTestSpecie.hpp"
 
+///@brief unit test to check if constructor is correctly
 void unit_specie_constructor(){
     Specie* specie = new SpecieImp("Jacare-acu", "Pequenos rios", 2500, true, false, false);
     
@@ -24,8 +25,10 @@ void unit_specie_constructor(){
     delete specie;
 }
 
+///@brief unit test to check if destructor is correctly
 void unit_specie_destructor(){ }
 
+///@brief unit test to check if the object is setting a new name correctly
 void unit_specie_setName(){
     Specie* specie = new SpecieImp("Jacare-acu", "Pequenos rios", 2500, true, false, false);
 
@@ -35,6 +38,7 @@ void unit_specie_setName(){
     delete specie;
 }
 
+///@brief unit test to check if the object is returning actual name correctly
 void unit_specie_getName(){
     Specie* specie = new SpecieImp("Jacare-acu", "Pequenos rios", 2500, true, false, false);
 
@@ -43,6 +47,7 @@ void unit_specie_getName(){
     delete specie;
 }
 
+///@brief unit test to check if the object is setting a new habitat correctly
 void unit_specie_setHabitat(){
     Specie* specie = new SpecieImp("Jacare-acu", "Pequenos rios", 2500, true, false, false);
 
@@ -52,6 +57,7 @@ void unit_specie_setHabitat(){
     delete specie;
 }
 
+///@brief unit test to check if the object is returning actual habitat correctly
 void unit_specie_getHabitat(){
     Specie* specie = new SpecieImp("Jacare-acu", "Pequenos rios", 2500, true, false, false);
 
@@ -60,6 +66,7 @@ void unit_specie_getHabitat(){
     delete specie;
 }
 
+///@brief unit test to check if the object is setting a new population correctly
 void unit_specie_setPopulation(){
     Specie* specie = new SpecieImp("Jacare-acu", "Pequenos rios", 2500, true, false, false);
 
@@ -69,6 +76,7 @@ void unit_specie_setPopulation(){
     delete specie;
 }
 
+///@brief unit test to check if the object is returning actual population correctly
 void unit_specie_getPopulation(){
     Specie* specie = new SpecieImp("Jacare-acu", "Pequenos rios", 2500, true, false, false);
 
@@ -77,6 +85,7 @@ void unit_specie_getPopulation(){
     delete specie;
 }
 
+///@brief unit test to check if the object is setting a new predator condition correctly
 void unit_specie_setPredator(){
     Specie* specie = new SpecieImp("Jacare-acu", "Pequenos rios", 2500, true, false, false);
 
@@ -86,6 +95,7 @@ void unit_specie_setPredator(){
     delete specie;
 }
 
+///@brief unit test to check if the object is returning actual predator condition correctly
 void unit_specie_getPredator(){
     Specie* specie = new SpecieImp("Jacare-acu", "Pequenos rios", 2500, true, false, false);
 
@@ -94,6 +104,7 @@ void unit_specie_getPredator(){
     delete specie;
 }
 
+///@brief unit test to check if the object is setting a new near extinction condition correctly
 void unit_specie_setNearExtinction(){
     Specie* specie = new SpecieImp("Jacare-acu", "Pequenos rios", 2500, true, false, false);
 
@@ -103,6 +114,7 @@ void unit_specie_setNearExtinction(){
     delete specie;
 }
 
+///@brief unit test to check if the object is returning actual near extinction condition correctly
 void unit_specie_getNearExtinction(){
     Specie* specie = new SpecieImp("Jacare-acu", "Pequenos rios", 2500, true, false, false);
 
@@ -111,6 +123,7 @@ void unit_specie_getNearExtinction(){
     delete specie;
 }
 
+///@brief unit test to check if the object is setting a new hunting target condition correctly
 void unit_specie_setHuntingTarget(){
     Specie* specie = new SpecieImp("Jacare-acu", "Pequenos rios", 2500, true, false, false);
 
@@ -120,6 +133,7 @@ void unit_specie_setHuntingTarget(){
     delete specie;
 }
 
+///@brief unit test to check if the object is returning actual hunting target condition correctly
 void unit_specie_getHuntingTarget(){
     Specie* specie = new SpecieImp("Jacare-acu", "Pequenos rios", 2500, true, false, false);
 
@@ -128,6 +142,7 @@ void unit_specie_getHuntingTarget(){
     delete specie;
 }
 
+///@brief run all specie tests
 void run_unit_specie(){
     unit_specie_constructor();
     unit_specie_destructor();

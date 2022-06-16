@@ -1,0 +1,9 @@
+<map id="Database::getPositionResearcher" name="Database::getPositionResearcher">
+<area shape="rect" id="node1" title="Get the Position Researcher object in the database." alt="" coords="683,64,899,91"/>
+<area shape="rect" id="node2" href="$unit_test_database_8cpp.html#ad2f15a5497fef1d49e4f77bb4171376b" title="Unit test to check if database is creating a researcher correctly." alt="" coords="423,5,635,32"/>
+<area shape="rect" id="node6" href="$unit_test_database_8cpp.html#ad22e16f3df227860f88d7c6f6ab36383" title="Unit test to check if database is returning a the position of a researcher correctly." alt="" coords="441,57,616,98"/>
+<area shape="rect" id="node7" href="$unit_test_database_8cpp.html#a0ddf12ebd1bff92286b5e1751875e4b4" title="Unit test to check if database is returning a researcher correctly." alt="" coords="431,123,626,149"/>
+<area shape="rect" id="node3" href="$unit_test_database_8cpp.html#a8bf731ee942dbf9fdc108007db7a8370" title="run all unit tests of the database" alt="" coords="247,64,375,91"/>
+<area shape="rect" id="node4" href="$unit_test_8cpp.html#adc55d66d01b104380f72a64f36c4cb9d" title="implemenation of the function that runs all runit tests" alt="" coords="104,64,199,91"/>
+<area shape="rect" id="node5" href="$unit_test_2main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title="main function of the unit tests" alt="" coords="5,64,56,91"/>
+</map>

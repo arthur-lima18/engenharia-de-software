@@ -11,8 +11,10 @@
 
 #include "unitTestDatabase.hpp"
 
+///@brief Unit test of the database destructor
 void unit_database_destructor(){ }
 
+///@brief Unit test to check if database is creating a specie correctly
 void unit_database_createSpecie(){
     Specie* specie = new SpecieImp("Jacare-acu", "Pequenos rios", 2500, true, false, false);
     Database* database = new DatabaseImp();
@@ -27,6 +29,7 @@ void unit_database_createSpecie(){
     delete database;
 }
 
+///@brief Unit test to check if database is creating a researcher correctly
 void unit_database_createResearcher(){
     Researcher* researcher = new ResearcherImp("Carlos", "1234", "Coordenador", "05/04/2022", true);
     Database* database = new DatabaseImp();
@@ -41,10 +44,7 @@ void unit_database_createResearcher(){
     delete database;
 }
 
-void unit_database_deleteResearcher(){
-
-}
-
+///@brief Unit test to check if database is updating a specie correctly
 void unit_database_putSpecie(){
     Specie* specie = new SpecieImp("Jacare-acu", "Pequenos rios", 2500, true, false, false);
     Database* database = new DatabaseImp();
@@ -63,6 +63,7 @@ void unit_database_putSpecie(){
     delete database;
 }
 
+///@brief Unit test to check if database is updating a researcher correctly
 void unit_database_putResearcher(){
     Researcher* researcher = new ResearcherImp("Carlos", "1234", "Coordenador", "05/04/2022", true);
     Database* database = new DatabaseImp();
@@ -80,6 +81,7 @@ void unit_database_putResearcher(){
     delete database;
 }
 
+///@brief Unit test to check if database is returning a specie correctly
 void unit_database_getSpecie(){
     Specie* specie = new SpecieImp("Jacare-acu", "Pequenos rios", 2500, true, false, false);
     Database* database = new DatabaseImp();
@@ -92,6 +94,7 @@ void unit_database_getSpecie(){
     delete database;
 }
 
+///@brief Unit test to check if database is returning a researcher correctly
 void unit_database_getResearcher(){
     Researcher* researcher = new ResearcherImp("Carlos", "1234", "Coordenador", "05/04/2022", true);
     Database* database = new DatabaseImp();
@@ -104,6 +107,7 @@ void unit_database_getResearcher(){
     delete database;
 }
 
+///@brief Unit test to check if database is returning a the position of a specie correctly
 void unit_database_getPositionSpecie(){
     Specie* specie = new SpecieImp("Jacare-acu", "Pequenos rios", 2500, true, false, false);
     Database* database = new DatabaseImp();
@@ -115,6 +119,7 @@ void unit_database_getPositionSpecie(){
     delete database;
 }
 
+///@brief Unit test to check if database is returning a the position of a researcher correctly
 void unit_database_getPositionResearcher(){
     Researcher* researcher = new ResearcherImp("Carlos", "1234", "Coordenador", "05/04/2022", true);
     Database* database = new DatabaseImp();
@@ -126,6 +131,7 @@ void unit_database_getPositionResearcher(){
     delete database;
 }
 
+///@brief Unit test to check if database is validating a researcher user correctly
 void unit_database_login(){
     Researcher* researcher = new ResearcherImp("Carlos", "1234", "Coordenador", "05/04/2022", true);
     Database* database = new DatabaseImp();
@@ -139,6 +145,7 @@ void unit_database_login(){
     delete database;
 }
 
+///@brief run all unit tests of the database
 void run_unit_database(){
     unit_database_destructor();
     unit_database_createSpecie();

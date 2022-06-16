@@ -9,9 +9,9 @@
  * 
  */
 
-#include<assert.h>
 #include "unitTest.hpp"
 
+///@brief implemenation of the function that runs all runit tests
 void runUnitTests() {
     run_unit_specie();
     run_unit_researcher();

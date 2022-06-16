@@ -1,0 +1,51 @@
+\hypertarget{database_imp_8hpp_source}{}\doxysection{database\+Imp.\+hpp}
+\label{database_imp_8hpp_source}\index{src/databaseImp.hpp@{src/databaseImp.hpp}}
+\mbox{\hyperlink{database_imp_8hpp}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 }
+\DoxyCodeLine{12 \textcolor{preprocessor}{\#ifndef DATABASEIMP\_HPP}}
+\DoxyCodeLine{13 \textcolor{preprocessor}{\#define DATABASEIMP\_HPP}}
+\DoxyCodeLine{14 }
+\DoxyCodeLine{15 \textcolor{preprocessor}{\#include "{}\mbox{\hyperlink{database_8hpp}{database.hpp}}"{}}}
+\DoxyCodeLine{16 }
+\DoxyCodeLine{17 \textcolor{keyword}{using namespace }std;}
+\DoxyCodeLine{18 }
+\DoxyCodeLine{23 \textcolor{keyword}{class }\mbox{\hyperlink{class_database_imp}{DatabaseImp}} : \textcolor{keyword}{public} \mbox{\hyperlink{class_database}{Database}}\{}
+\DoxyCodeLine{25     vector<Specie*> species;}
+\DoxyCodeLine{26 }
+\DoxyCodeLine{28     vector<Researcher*> researchers;}
+\DoxyCodeLine{29 }
+\DoxyCodeLine{30     \textcolor{keyword}{public}:}
+\DoxyCodeLine{35         \mbox{\hyperlink{class_database_imp_ad78ff3a7c6cc5fc6934c13e96c640928}{DatabaseImp}}();}
+\DoxyCodeLine{36 }
+\DoxyCodeLine{41         \textcolor{keyword}{virtual} \mbox{\hyperlink{class_database_imp_aed42887d74e32c900d7102b103a3476c}{\string~DatabaseImp}}();}
+\DoxyCodeLine{42 }
+\DoxyCodeLine{48         \textcolor{keywordtype}{void} \mbox{\hyperlink{class_database_imp_a214203f6e02515d16515aa2d84a60ecb}{createSpecie}}(\mbox{\hyperlink{class_specie}{Specie}}* specie);}
+\DoxyCodeLine{49 }
+\DoxyCodeLine{55         \textcolor{keywordtype}{void} \mbox{\hyperlink{class_database_imp_a3cb72979625947012c3060bf2131f6a6}{createResearcher}}(\mbox{\hyperlink{class_researcher}{Researcher}}* researcher);}
+\DoxyCodeLine{56 }
+\DoxyCodeLine{62         \textcolor{keywordtype}{void} \mbox{\hyperlink{class_database_imp_a3e9ca934759c01f3d90c41c2ce53398e}{deleteSpecie}}(\textcolor{keywordtype}{string} name);}
+\DoxyCodeLine{63 }
+\DoxyCodeLine{69         \textcolor{keywordtype}{void} \mbox{\hyperlink{class_database_imp_a35fc397d70669789b53b3217c8f72714}{deleteResearcher}}(\textcolor{keywordtype}{string} name);}
+\DoxyCodeLine{70 }
+\DoxyCodeLine{76         \textcolor{keywordtype}{void} \mbox{\hyperlink{class_database_imp_aae2caa4cc3e1e13690dd9b76e1f32e47}{putSpecie}}(\mbox{\hyperlink{class_specie}{Specie}}* update);}
+\DoxyCodeLine{77 }
+\DoxyCodeLine{83         \textcolor{keywordtype}{void} \mbox{\hyperlink{class_database_imp_a4eeca9e28e85e46916c59077926d765c}{putResearcher}}(\mbox{\hyperlink{class_researcher}{Researcher}}* update);}
+\DoxyCodeLine{84 }
+\DoxyCodeLine{91         \mbox{\hyperlink{class_specie}{Specie}}* \mbox{\hyperlink{class_database_imp_a84c93da12739e9157339f6ebc675949d}{getSpecie}}(\textcolor{keywordtype}{int} pos);}
+\DoxyCodeLine{92 }
+\DoxyCodeLine{98         vector<Specie*> \mbox{\hyperlink{class_database_imp_a7f4990d1e4aeaf9bb5ca04a205709b5f}{getSpecies}}(); }
+\DoxyCodeLine{99 }
+\DoxyCodeLine{106         \mbox{\hyperlink{class_researcher}{Researcher}}* \mbox{\hyperlink{class_database_imp_a8861168791c307522bc8b46e1d83270c}{getResearcher}}(\textcolor{keywordtype}{int} pos);}
+\DoxyCodeLine{107 }
+\DoxyCodeLine{114         \textcolor{keywordtype}{int} \mbox{\hyperlink{class_database_imp_a6b4acc85c9304c2357fc9553d795abff}{getPositionSpecie}}(\textcolor{keywordtype}{string} name);}
+\DoxyCodeLine{115 }
+\DoxyCodeLine{122         \textcolor{keywordtype}{int} \mbox{\hyperlink{class_database_imp_a0bc3f7a127a0e6a3df1b26ca3dcc2d93}{getPositionResearcher}}(\textcolor{keywordtype}{string} name);}
+\DoxyCodeLine{123 }
+\DoxyCodeLine{124 }
+\DoxyCodeLine{132         \textcolor{keywordtype}{int} \mbox{\hyperlink{class_database_imp_a2bdca2befe426aa017cf1deeebef10c7}{login}}(\textcolor{keywordtype}{string} name, \textcolor{keywordtype}{string} password);}
+\DoxyCodeLine{133 \};}
+\DoxyCodeLine{134 }
+\DoxyCodeLine{135 \textcolor{preprocessor}{\#endif}}
+
+\end{DoxyCode}

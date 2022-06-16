@@ -10,8 +10,13 @@
  */
 
 #include "unitTest.hpp"
-#include<iostream>
+#include <iostream>
 
+/**
+ * @brief main function of the unit tests
+ * 
+ * @return int 
+ */
 int main() {
     cout << "Inicializating unit tests..." << endl;
     runUnitTests();

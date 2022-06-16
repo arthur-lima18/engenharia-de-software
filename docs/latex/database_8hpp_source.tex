@@ -1,0 +1,48 @@
+\hypertarget{database_8hpp_source}{}\doxysection{database.\+hpp}
+\label{database_8hpp_source}\index{src/database.hpp@{src/database.hpp}}
+\mbox{\hyperlink{database_8hpp}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 }
+\DoxyCodeLine{12 \textcolor{preprocessor}{\#ifndef DATABASE\_HPP}}
+\DoxyCodeLine{13 \textcolor{preprocessor}{\#define DATABASE\_HPP}}
+\DoxyCodeLine{14 }
+\DoxyCodeLine{15 \textcolor{preprocessor}{\#include "{}\mbox{\hyperlink{researcher_imp_8hpp}{researcherImp.hpp}}"{}}}
+\DoxyCodeLine{16 \textcolor{preprocessor}{\#include "{}\mbox{\hyperlink{specie_imp_8hpp}{specieImp.hpp}}"{}}}
+\DoxyCodeLine{17 \textcolor{preprocessor}{\#include <vector>}}
+\DoxyCodeLine{18 \textcolor{preprocessor}{\#include <iostream>}}
+\DoxyCodeLine{19 }
+\DoxyCodeLine{20 }
+\DoxyCodeLine{21 \textcolor{keyword}{using namespace }std;}
+\DoxyCodeLine{22 }
+\DoxyCodeLine{27 \textcolor{keyword}{class }\mbox{\hyperlink{class_database}{Database}}\{}
+\DoxyCodeLine{28     \textcolor{keyword}{public}:}
+\DoxyCodeLine{33         \textcolor{keyword}{virtual} \mbox{\hyperlink{class_database_a749d9987dd49d441d8e938f1706583db}{\string~Database}}()\{\};}
+\DoxyCodeLine{34 }
+\DoxyCodeLine{40         \textcolor{keyword}{virtual} \textcolor{keywordtype}{void} \mbox{\hyperlink{class_database_ab96e3134c8b0877551c72ec570163bfc}{createSpecie}}(\mbox{\hyperlink{class_specie}{Specie}}* specie) = 0;}
+\DoxyCodeLine{41 }
+\DoxyCodeLine{47         \textcolor{keyword}{virtual} \textcolor{keywordtype}{void} \mbox{\hyperlink{class_database_a4af5a3ea5080cc233d43617579f4cd81}{createResearcher}}(\mbox{\hyperlink{class_researcher}{Researcher}}* researcher) = 0;}
+\DoxyCodeLine{48 }
+\DoxyCodeLine{54         \textcolor{keyword}{virtual} \textcolor{keywordtype}{void} \mbox{\hyperlink{class_database_a055b2df5e61dac95c52f948c82af11f8}{deleteSpecie}}(\textcolor{keywordtype}{string} name) = 0;}
+\DoxyCodeLine{55 }
+\DoxyCodeLine{61         \textcolor{keyword}{virtual} \textcolor{keywordtype}{void} \mbox{\hyperlink{class_database_ad044f614ee1189504c688a0651d76881}{deleteResearcher}}(\textcolor{keywordtype}{string} name) = 0;}
+\DoxyCodeLine{62 }
+\DoxyCodeLine{68         \textcolor{keyword}{virtual} \textcolor{keywordtype}{void} \mbox{\hyperlink{class_database_afb2b66259a0a74e092339d299abd6260}{putSpecie}}(\mbox{\hyperlink{class_specie}{Specie}}* update) = 0;}
+\DoxyCodeLine{69 }
+\DoxyCodeLine{75         \textcolor{keyword}{virtual} \textcolor{keywordtype}{void} \mbox{\hyperlink{class_database_a5cfcf25f41aa7c07dd5eebc4124f6fca}{putResearcher}}(\mbox{\hyperlink{class_researcher}{Researcher}}* update) = 0;}
+\DoxyCodeLine{76 }
+\DoxyCodeLine{83         \textcolor{keyword}{virtual} \mbox{\hyperlink{class_specie}{Specie}}* \mbox{\hyperlink{class_database_add20e481b52625a561275d18117b28eb}{getSpecie}}(\textcolor{keywordtype}{int} pos) = 0;}
+\DoxyCodeLine{84 }
+\DoxyCodeLine{90         \textcolor{keyword}{virtual} vector<Specie*> \mbox{\hyperlink{class_database_af6c0943fb05907652a2f2ea829cc82a0}{getSpecies}}() = 0;}
+\DoxyCodeLine{91 }
+\DoxyCodeLine{98         \textcolor{keyword}{virtual} \mbox{\hyperlink{class_researcher}{Researcher}}* \mbox{\hyperlink{class_database_acabcaf4361f04d2add99f3a3842634ad}{getResearcher}}(\textcolor{keywordtype}{int} pos) = 0;}
+\DoxyCodeLine{99 }
+\DoxyCodeLine{106         \textcolor{keyword}{virtual} \textcolor{keywordtype}{int} \mbox{\hyperlink{class_database_a817f1764760871d2fc0a00af21cfb32d}{getPositionSpecie}}(\textcolor{keywordtype}{string} name) = 0;}
+\DoxyCodeLine{107 }
+\DoxyCodeLine{114         \textcolor{keyword}{virtual} \textcolor{keywordtype}{int} \mbox{\hyperlink{class_database_a8718bff0acd0a8a79ba84e78b115181a}{getPositionResearcher}}(\textcolor{keywordtype}{string} name) = 0;}
+\DoxyCodeLine{115 }
+\DoxyCodeLine{123         \textcolor{keyword}{virtual} \textcolor{keywordtype}{int} \mbox{\hyperlink{class_database_a1b84fd9cfaf520b66924a21fd3b15478}{login}}(\textcolor{keywordtype}{string} name, \textcolor{keywordtype}{string} password) = 0;}
+\DoxyCodeLine{124 \};}
+\DoxyCodeLine{125 }
+\DoxyCodeLine{126 \textcolor{preprocessor}{\#endif}}
+
+\end{DoxyCode}

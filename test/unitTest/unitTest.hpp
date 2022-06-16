@@ -16,6 +16,7 @@
 #include "unitTestResearcher.hpp"
 #include "unitTestSpecie.hpp"
 
+///@brief function that run all unit tests
 void runUnitTests();
 
 #endif

@@ -1,0 +1,7 @@
+<map id="Database::putResearcher" name="Database::putResearcher">
+<area shape="rect" id="node1" title="Update a Researcher object." alt="" coords="665,5,835,32"/>
+<area shape="rect" id="node2" href="$unit_test_database_8cpp.html#a867d584207e8df35c90246e243a005eb" title="Unit test to check if database is updating a researcher correctly." alt="" coords="423,5,617,32"/>
+<area shape="rect" id="node3" href="$unit_test_database_8cpp.html#a8bf731ee942dbf9fdc108007db7a8370" title="run all unit tests of the database" alt="" coords="247,5,375,32"/>
+<area shape="rect" id="node4" href="$unit_test_8cpp.html#adc55d66d01b104380f72a64f36c4cb9d" title="implemenation of the function that runs all runit tests" alt="" coords="104,5,199,32"/>
+<area shape="rect" id="node5" href="$unit_test_2main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title="main function of the unit tests" alt="" coords="5,5,56,32"/>
+</map>

@@ -1,0 +1,367 @@
+\hypertarget{class_specie}{}\doxysection{Specie Class Reference}
+\label{class_specie}\index{Specie@{Specie}}
+
+
+Class that define an specie object.  
+
+
+
+
+{\ttfamily \#include $<$specie.\+hpp$>$}
+
+
+
+Inheritance diagram for Specie\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=142pt]{class_specie__inherit__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_specie_a6faa941815c7fee236ba269fbd17170b}\label{class_specie_a6faa941815c7fee236ba269fbd17170b}} 
+virtual {\bfseries $\sim$\+Specie} ()
+\begin{DoxyCompactList}\small\item\em Destroy the \mbox{\hyperlink{class_specie}{Specie}} object. \end{DoxyCompactList}\item 
+virtual void \mbox{\hyperlink{class_specie_a3fa96018e39e8f5b870ff0dbafdff767}{set\+Name}} (string name)=0
+\begin{DoxyCompactList}\small\item\em Set the Name object. \end{DoxyCompactList}\item 
+virtual string \mbox{\hyperlink{class_specie_a517e4d97520cfe95610c5f345a2eaddf}{get\+Name}} ()=0
+\begin{DoxyCompactList}\small\item\em Get the Name object. \end{DoxyCompactList}\item 
+virtual void \mbox{\hyperlink{class_specie_a0a9a3dd1bb78ce9aba288f60988de26d}{set\+Habitat}} (string habitat)=0
+\begin{DoxyCompactList}\small\item\em Set the Habitat object. \end{DoxyCompactList}\item 
+virtual string \mbox{\hyperlink{class_specie_a9cfd5c0f5e32c14bc56d1ab464c3312c}{get\+Habitat}} ()=0
+\begin{DoxyCompactList}\small\item\em Get the Habitat object. \end{DoxyCompactList}\item 
+virtual void \mbox{\hyperlink{class_specie_a2440b7a08e8482f3a6babf5c43ed63bd}{set\+Population}} (int population)=0
+\begin{DoxyCompactList}\small\item\em Set the Population object. \end{DoxyCompactList}\item 
+virtual int \mbox{\hyperlink{class_specie_a1b7b1f80dc7f34707e03cc9e74a6b92e}{get\+Population}} ()=0
+\begin{DoxyCompactList}\small\item\em Get the Population object. \end{DoxyCompactList}\item 
+virtual void \mbox{\hyperlink{class_specie_a28ab1e3da6c3fe303b1c7d4cb99376ca}{set\+Predator}} (bool predator)=0
+\begin{DoxyCompactList}\small\item\em Set the Predator object. \end{DoxyCompactList}\item 
+virtual bool \mbox{\hyperlink{class_specie_ae3739577ccb1a1a0ba9249b66f0a3e42}{get\+Predator}} ()=0
+\begin{DoxyCompactList}\small\item\em Get the Predator object. \end{DoxyCompactList}\item 
+virtual void \mbox{\hyperlink{class_specie_ab806a415af19413ba0262867fdc5b329}{set\+Near\+Extinction}} (bool near\+Extinction)=0
+\begin{DoxyCompactList}\small\item\em Set the Near Extinction object. \end{DoxyCompactList}\item 
+virtual bool \mbox{\hyperlink{class_specie_ada87763e95655407358ad4436d4e0df2}{get\+Near\+Extinction}} ()=0
+\begin{DoxyCompactList}\small\item\em Get the Near Extinction object. \end{DoxyCompactList}\item 
+virtual void \mbox{\hyperlink{class_specie_aaaf38eccc74719b8bbc4acaa481c7840}{set\+Hunting\+Target}} (bool hunting\+Target)=0
+\begin{DoxyCompactList}\small\item\em Set the Hunting Target object. \end{DoxyCompactList}\item 
+virtual bool \mbox{\hyperlink{class_specie_a2cc0c615c64b7b288763393fbdb9f3ad}{get\+Hunting\+Target}} ()=0
+\begin{DoxyCompactList}\small\item\em Get the Hunting Target object. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Class that define an specie object. 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_specie_a9cfd5c0f5e32c14bc56d1ab464c3312c}\label{class_specie_a9cfd5c0f5e32c14bc56d1ab464c3312c}} 
+\index{Specie@{Specie}!getHabitat@{getHabitat}}
+\index{getHabitat@{getHabitat}!Specie@{Specie}}
+\doxysubsubsection{\texorpdfstring{getHabitat()}{getHabitat()}}
+{\footnotesize\ttfamily virtual string Specie\+::get\+Habitat (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+Get the Habitat object. 
+
+\begin{DoxyReturn}{Returns}
+string habitat of the specie 
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{class_specie_imp_abb1583389b702f33ea62337ce06526d9}{Specie\+Imp}}.
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_specie_a9cfd5c0f5e32c14bc56d1ab464c3312c_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_specie_a2cc0c615c64b7b288763393fbdb9f3ad}\label{class_specie_a2cc0c615c64b7b288763393fbdb9f3ad}} 
+\index{Specie@{Specie}!getHuntingTarget@{getHuntingTarget}}
+\index{getHuntingTarget@{getHuntingTarget}!Specie@{Specie}}
+\doxysubsubsection{\texorpdfstring{getHuntingTarget()}{getHuntingTarget()}}
+{\footnotesize\ttfamily virtual bool Specie\+::get\+Hunting\+Target (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+Get the Hunting Target object. 
+
+\begin{DoxyReturn}{Returns}
+true the specie is a hunting target 
+
+false the specie isn\textquotesingle{}t a hunting target 
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{class_specie_imp_aeaa067a0af872ffa4b1db552bfe9449d}{Specie\+Imp}}.
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_specie_a2cc0c615c64b7b288763393fbdb9f3ad_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_specie_a517e4d97520cfe95610c5f345a2eaddf}\label{class_specie_a517e4d97520cfe95610c5f345a2eaddf}} 
+\index{Specie@{Specie}!getName@{getName}}
+\index{getName@{getName}!Specie@{Specie}}
+\doxysubsubsection{\texorpdfstring{getName()}{getName()}}
+{\footnotesize\ttfamily virtual string Specie\+::get\+Name (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+Get the Name object. 
+
+\begin{DoxyReturn}{Returns}
+string name of the specie object 
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{class_specie_imp_ad24a13ab8e428e1358c91f880f6eefff}{Specie\+Imp}}.
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_specie_a517e4d97520cfe95610c5f345a2eaddf_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_specie_ada87763e95655407358ad4436d4e0df2}\label{class_specie_ada87763e95655407358ad4436d4e0df2}} 
+\index{Specie@{Specie}!getNearExtinction@{getNearExtinction}}
+\index{getNearExtinction@{getNearExtinction}!Specie@{Specie}}
+\doxysubsubsection{\texorpdfstring{getNearExtinction()}{getNearExtinction()}}
+{\footnotesize\ttfamily virtual bool Specie\+::get\+Near\+Extinction (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+Get the Near Extinction object. 
+
+\begin{DoxyReturn}{Returns}
+true the specie is near extinction 
+
+false the specie isn\textquotesingle{}t near extinction 
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{class_specie_imp_a7742177a035df60c6b9b1199145e6a0b}{Specie\+Imp}}.
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_specie_ada87763e95655407358ad4436d4e0df2_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_specie_a1b7b1f80dc7f34707e03cc9e74a6b92e}\label{class_specie_a1b7b1f80dc7f34707e03cc9e74a6b92e}} 
+\index{Specie@{Specie}!getPopulation@{getPopulation}}
+\index{getPopulation@{getPopulation}!Specie@{Specie}}
+\doxysubsubsection{\texorpdfstring{getPopulation()}{getPopulation()}}
+{\footnotesize\ttfamily virtual int Specie\+::get\+Population (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+Get the Population object. 
+
+\begin{DoxyReturn}{Returns}
+int population of the specie 
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{class_specie_imp_af93c7e259e2a55845a9b0ac4f05ab123}{Specie\+Imp}}.
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_specie_a1b7b1f80dc7f34707e03cc9e74a6b92e_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_specie_ae3739577ccb1a1a0ba9249b66f0a3e42}\label{class_specie_ae3739577ccb1a1a0ba9249b66f0a3e42}} 
+\index{Specie@{Specie}!getPredator@{getPredator}}
+\index{getPredator@{getPredator}!Specie@{Specie}}
+\doxysubsubsection{\texorpdfstring{getPredator()}{getPredator()}}
+{\footnotesize\ttfamily virtual bool Specie\+::get\+Predator (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+Get the Predator object. 
+
+\begin{DoxyReturn}{Returns}
+true the specie is a predator 
+
+false the specie isn\textquotesingle{}t a predator 
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{class_specie_imp_ae8bdd583dfdd09c8c619b59a51e2ab61}{Specie\+Imp}}.
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_specie_ae3739577ccb1a1a0ba9249b66f0a3e42_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_specie_a0a9a3dd1bb78ce9aba288f60988de26d}\label{class_specie_a0a9a3dd1bb78ce9aba288f60988de26d}} 
+\index{Specie@{Specie}!setHabitat@{setHabitat}}
+\index{setHabitat@{setHabitat}!Specie@{Specie}}
+\doxysubsubsection{\texorpdfstring{setHabitat()}{setHabitat()}}
+{\footnotesize\ttfamily virtual void Specie\+::set\+Habitat (\begin{DoxyParamCaption}\item[{string}]{habitat }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+Set the Habitat object. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em habitat} & habitat that will be set \\
+\hline
+\end{DoxyParams}
+
+
+Implemented in \mbox{\hyperlink{class_specie_imp_a05e6f0d787e7e42ed78569685b93f940}{Specie\+Imp}}.
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_specie_a0a9a3dd1bb78ce9aba288f60988de26d_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_specie_aaaf38eccc74719b8bbc4acaa481c7840}\label{class_specie_aaaf38eccc74719b8bbc4acaa481c7840}} 
+\index{Specie@{Specie}!setHuntingTarget@{setHuntingTarget}}
+\index{setHuntingTarget@{setHuntingTarget}!Specie@{Specie}}
+\doxysubsubsection{\texorpdfstring{setHuntingTarget()}{setHuntingTarget()}}
+{\footnotesize\ttfamily virtual void Specie\+::set\+Hunting\+Target (\begin{DoxyParamCaption}\item[{bool}]{hunting\+Target }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+Set the Hunting Target object. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em hunting\+Target} & set if the specie is a hunting target or not \\
+\hline
+\end{DoxyParams}
+
+
+Implemented in \mbox{\hyperlink{class_specie_imp_ace45d7f0bcced268b586ed64cdeff72b}{Specie\+Imp}}.
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_specie_aaaf38eccc74719b8bbc4acaa481c7840_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_specie_a3fa96018e39e8f5b870ff0dbafdff767}\label{class_specie_a3fa96018e39e8f5b870ff0dbafdff767}} 
+\index{Specie@{Specie}!setName@{setName}}
+\index{setName@{setName}!Specie@{Specie}}
+\doxysubsubsection{\texorpdfstring{setName()}{setName()}}
+{\footnotesize\ttfamily virtual void Specie\+::set\+Name (\begin{DoxyParamCaption}\item[{string}]{name }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+Set the Name object. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em name} & name that will be set in the specie object \\
+\hline
+\end{DoxyParams}
+
+
+Implemented in \mbox{\hyperlink{class_specie_imp_acad3b454637cea40610802c318650121}{Specie\+Imp}}.
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_specie_a3fa96018e39e8f5b870ff0dbafdff767_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_specie_ab806a415af19413ba0262867fdc5b329}\label{class_specie_ab806a415af19413ba0262867fdc5b329}} 
+\index{Specie@{Specie}!setNearExtinction@{setNearExtinction}}
+\index{setNearExtinction@{setNearExtinction}!Specie@{Specie}}
+\doxysubsubsection{\texorpdfstring{setNearExtinction()}{setNearExtinction()}}
+{\footnotesize\ttfamily virtual void Specie\+::set\+Near\+Extinction (\begin{DoxyParamCaption}\item[{bool}]{near\+Extinction }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+Set the Near Extinction object. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em near\+Extinction} & set if the specie is a near extinction or not \\
+\hline
+\end{DoxyParams}
+
+
+Implemented in \mbox{\hyperlink{class_specie_imp_aacfab4f21509b080f52a71bf4815f493}{Specie\+Imp}}.
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_specie_ab806a415af19413ba0262867fdc5b329_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_specie_a2440b7a08e8482f3a6babf5c43ed63bd}\label{class_specie_a2440b7a08e8482f3a6babf5c43ed63bd}} 
+\index{Specie@{Specie}!setPopulation@{setPopulation}}
+\index{setPopulation@{setPopulation}!Specie@{Specie}}
+\doxysubsubsection{\texorpdfstring{setPopulation()}{setPopulation()}}
+{\footnotesize\ttfamily virtual void Specie\+::set\+Population (\begin{DoxyParamCaption}\item[{int}]{population }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+Set the Population object. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em population} & population that will be set \\
+\hline
+\end{DoxyParams}
+
+
+Implemented in \mbox{\hyperlink{class_specie_imp_aa7ec3a46c1071d66a742d50652777cf4}{Specie\+Imp}}.
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_specie_a2440b7a08e8482f3a6babf5c43ed63bd_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_specie_a28ab1e3da6c3fe303b1c7d4cb99376ca}\label{class_specie_a28ab1e3da6c3fe303b1c7d4cb99376ca}} 
+\index{Specie@{Specie}!setPredator@{setPredator}}
+\index{setPredator@{setPredator}!Specie@{Specie}}
+\doxysubsubsection{\texorpdfstring{setPredator()}{setPredator()}}
+{\footnotesize\ttfamily virtual void Specie\+::set\+Predator (\begin{DoxyParamCaption}\item[{bool}]{predator }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+Set the Predator object. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em predator} & set if the specie is a predator or not \\
+\hline
+\end{DoxyParams}
+
+
+Implemented in \mbox{\hyperlink{class_specie_imp_a1d0ee59c378bea4239208803172a1a11}{Specie\+Imp}}.
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_specie_a28ab1e3da6c3fe303b1c7d4cb99376ca_icgraph}
+\end{center}
+\end{figure}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/\mbox{\hyperlink{specie_8hpp}{specie.\+hpp}}\end{DoxyCompactItemize}

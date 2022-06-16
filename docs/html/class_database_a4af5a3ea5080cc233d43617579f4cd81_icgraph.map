@@ -1,0 +1,12 @@
+<map id="Database::createResearcher" name="Database::createResearcher">
+<area shape="rect" id="node1" title="Create a Researcher object." alt="" coords="683,115,869,141"/>
+<area shape="rect" id="node2" href="$functional_test_8cpp.html#adbfe1c33b0908c005f84b2319da0a92d" title="implementation of the only functional test" alt="" coords="477,5,580,32"/>
+<area shape="rect" id="node4" href="$unit_test_database_8cpp.html#ad2f15a5497fef1d49e4f77bb4171376b" title="Unit test to check if database is creating a researcher correctly." alt="" coords="423,56,635,83"/>
+<area shape="rect" id="node8" href="$unit_test_database_8cpp.html#ad22e16f3df227860f88d7c6f6ab36383" title="Unit test to check if database is returning a the position of a researcher correctly." alt="" coords="441,107,616,149"/>
+<area shape="rect" id="node9" href="$unit_test_database_8cpp.html#a0ddf12ebd1bff92286b5e1751875e4b4" title="Unit test to check if database is returning a researcher correctly." alt="" coords="431,173,626,200"/>
+<area shape="rect" id="node10" href="$unit_test_database_8cpp.html#a2a407232dee5903039f2ea490e588c17" title="Unit test to check if database is validating a researcher user correctly." alt="" coords="460,224,597,251"/>
+<area shape="rect" id="node3" href="$functional_test_2main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title="main function of the functional tests" alt="" coords="285,5,336,32"/>
+<area shape="rect" id="node5" href="$unit_test_database_8cpp.html#a8bf731ee942dbf9fdc108007db7a8370" title="run all unit tests of the database" alt="" coords="247,144,375,171"/>
+<area shape="rect" id="node6" href="$unit_test_8cpp.html#adc55d66d01b104380f72a64f36c4cb9d" title="implemenation of the function that runs all runit tests" alt="" coords="104,144,199,171"/>
+<area shape="rect" id="node7" href="$unit_test_2main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title="main function of the unit tests" alt="" coords="5,144,56,171"/>
+</map>

@@ -1,0 +1,8 @@
+<map id="DatabaseImp::putResearcher" name="DatabaseImp::putResearcher">
+<area shape="rect" id="node1" title="Update a Researcher object." alt="" coords="5,107,196,133"/>
+<area shape="rect" id="node2" href="$class_researcher.html#ae94d87536239c2dbea3ad87c06223135" title="Get the Job object." alt="" coords="274,5,409,32"/>
+<area shape="rect" id="node3" href="$class_researcher.html#a9a855e72df3406a7d7705591713e4c2a" title="Get the Name object." alt="" coords="267,56,415,83"/>
+<area shape="rect" id="node4" href="$class_researcher.html#a912a25a854f9aad71ec8fc554f864ee8" title="Get the Password object." alt="" coords="256,107,427,133"/>
+<area shape="rect" id="node5" href="$class_researcher.html#aeb2343bef0eb3998db4e17cd0941610c" title="Get the Working Since object." alt="" coords="244,157,439,184"/>
+<area shape="rect" id="node6" href="$class_researcher.html#a25c07b2a7ef33b70e52a1eaf330643ea" title="get if the object is admin or not" alt="" coords="270,208,413,235"/>
+</map>

@@ -1,0 +1,9 @@
+<map id="DatabaseImp::putSpecie" name="DatabaseImp::putSpecie">
+<area shape="rect" id="node1" title="Update a Specie object." alt="" coords="5,132,169,159"/>
+<area shape="rect" id="node2" href="$class_specie.html#a9cfd5c0f5e32c14bc56d1ab464c3312c" title="Get the Habitat object." alt="" coords="239,5,369,32"/>
+<area shape="rect" id="node3" href="$class_specie.html#a2cc0c615c64b7b288763393fbdb9f3ad" title="Get the Hunting Target object." alt="" coords="220,56,388,83"/>
+<area shape="rect" id="node4" href="$class_specie.html#a517e4d97520cfe95610c5f345a2eaddf" title="Get the Name object." alt="" coords="243,107,365,133"/>
+<area shape="rect" id="node5" href="$class_specie.html#ada87763e95655407358ad4436d4e0df2" title="Get the Near Extinction object." alt="" coords="217,157,391,184"/>
+<area shape="rect" id="node6" href="$class_specie.html#a1b7b1f80dc7f34707e03cc9e74a6b92e" title="Get the Population object." alt="" coords="229,208,379,235"/>
+<area shape="rect" id="node7" href="$class_specie.html#ae3739577ccb1a1a0ba9249b66f0a3e42" title="Get the Predator object." alt="" coords="235,259,373,285"/>
+</map>

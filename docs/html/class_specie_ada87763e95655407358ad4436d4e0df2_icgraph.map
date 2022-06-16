@@ -1,0 +1,15 @@
+<map id="Specie::getNearExtinction" name="Specie::getNearExtinction">
+<area shape="rect" id="node1" title="Get the Near Extinction object." alt="" coords="724,132,897,159"/>
+<area shape="rect" id="node2" href="$functional_test_8cpp.html#adbfe1c33b0908c005f84b2319da0a92d" title="implementation of the only functional test" alt="" coords="525,5,628,32"/>
+<area shape="rect" id="node4" href="$class_database_imp.html#aae2caa4cc3e1e13690dd9b76e1f32e47" title="Update a Specie object." alt="" coords="495,56,659,83"/>
+<area shape="rect" id="node6" href="$unit_test_database_8cpp.html#aacc1388b8235dd80822f0cbcaccbc1c4" title="Unit test to check if database is updating a specie correctly." alt="" coords="493,107,661,133"/>
+<area shape="rect" id="node10" href="$unit_test_specie_8cpp.html#ac0ebaaf5dd218130a89526d5831464cc" title="unit test to check if constructor is correctly" alt="" coords="497,157,657,184"/>
+<area shape="rect" id="node12" href="$unit_test_specie_8cpp.html#a7a354bed794d145f3cf22f01b71cd0ec" title="unit test to check if the object is returning actual near extinction condition correctly" alt="" coords="477,208,676,235"/>
+<area shape="rect" id="node13" href="$unit_test_specie_8cpp.html#ad1f6a618edef4395365546ce932a3c61" title="unit test to check if the object is setting a new near extinction condition correctly" alt="" coords="477,259,676,285"/>
+<area shape="rect" id="node3" href="$functional_test_2main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title="main function of the functional tests" alt="" coords="313,5,363,32"/>
+<area shape="rect" id="node5" href="$class_database_imp.html#a214203f6e02515d16515aa2d84a60ecb" title="Create a Researcher object." alt="" coords="247,56,429,83"/>
+<area shape="rect" id="node7" href="$unit_test_database_8cpp.html#a8bf731ee942dbf9fdc108007db7a8370" title="run all unit tests of the database" alt="" coords="274,119,402,145"/>
+<area shape="rect" id="node8" href="$unit_test_8cpp.html#adc55d66d01b104380f72a64f36c4cb9d" title="implemenation of the function that runs all runit tests" alt="" coords="104,169,199,196"/>
+<area shape="rect" id="node9" href="$unit_test_2main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title="main function of the unit tests" alt="" coords="5,169,56,196"/>
+<area shape="rect" id="node11" href="$unit_test_specie_8cpp.html#a622af37823548b1de2bb2fe052e2118a" title="run all specie tests" alt="" coords="281,195,395,221"/>
+</map>

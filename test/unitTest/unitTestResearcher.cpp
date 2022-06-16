@@ -11,6 +11,7 @@
 
 #include "unitTestResearcher.hpp"
 
+///@brief Unit test of the researcher constructor
 void unit_researcher_constructor(){
     Researcher* user = new ResearcherImp("Carlos", "1234", "Coordenador", "05/04/2022", true);
     
@@ -23,8 +24,10 @@ void unit_researcher_constructor(){
     delete user;
 }
 
+///@brief Unit test of the researcher destructor
 void unit_researcher_destructor(){ }
 
+///@brief Unit test to check if is setting the name of a researcher correctly
 void unit_researcher_setName(){
     Researcher* researcher = new ResearcherImp("Carlos", "1234", "Coordenador", "05/04/2022", true);
 
@@ -34,6 +37,7 @@ void unit_researcher_setName(){
     delete researcher;
 }
 
+///@brief Unit test to check if is returning the name of the researcher correctly
 void unit_researcher_getName(){
     Researcher* researcher = new ResearcherImp("Carlos", "1234", "Coordenador", "05/04/2022", true);
 
@@ -42,6 +46,7 @@ void unit_researcher_getName(){
     delete researcher;
 }
 
+///@brief Unit test to check if is setting the password of a researcher correctly
 void unit_researcher_setPassword(){
     Researcher* researcher = new ResearcherImp("Carlos", "1234", "Coordenador", "05/04/2022", true);
 
@@ -51,6 +56,7 @@ void unit_researcher_setPassword(){
     delete researcher;
 }
 
+///@brief Unit test to check if is returning password of the researcher correctly
 void unit_researcher_getPassword(){
     Researcher* researcher = new ResearcherImp("Carlos", "1234", "Coordenador", "05/04/2022", true);
 
@@ -59,6 +65,7 @@ void unit_researcher_getPassword(){
     delete researcher;
 }
 
+///@brief Unit test to check if is setting the job of a researcher correctly
 void unit_researcher_setJob(){
     Researcher* researcher = new ResearcherImp("Carlos", "1234", "Coordenador", "05/04/2022", true);
 
@@ -68,6 +75,7 @@ void unit_researcher_setJob(){
     delete researcher;
 }
 
+///@brief Unit test to check if is returning job of the researcher correctly
 void unit_researcher_getJob(){
     Researcher* researcher = new ResearcherImp("Carlos", "1234", "Coordenador", "05/04/2022", true);
 
@@ -76,6 +84,7 @@ void unit_researcher_getJob(){
     delete researcher;
 }
 
+///@brief Unit test to check if is setting the working since date of a researcher correctly
 void unit_researcher_setWorkingSince(){
     Researcher* researcher = new ResearcherImp("Carlos", "1234", "Coordenador", "05/04/2022", true);
 
@@ -85,6 +94,7 @@ void unit_researcher_setWorkingSince(){
     delete researcher;
 }
 
+///@brief Unit test to check if is returning working since date of the researcher correctly
 void unit_researcher_getWorkingSince(){
     Researcher* researcher = new ResearcherImp("Carlos", "1234", "Coordenador", "05/04/2022", true);
 
@@ -93,6 +103,7 @@ void unit_researcher_getWorkingSince(){
     delete researcher;
 }
 
+///@brief Unit test to check if is setting adming access of a researcher correctly
 void unit_researcher_setAdmin(){
     Researcher* researcher = new ResearcherImp("Carlos", "1234", "Coordenador", "05/04/2022", true);
 
@@ -102,6 +113,7 @@ void unit_researcher_setAdmin(){
     delete researcher;
 }
 
+///@brief Unit test to check if is returning access condition of the researcher correctly
 void unit_researcher_isAdmin(){
     Researcher* researcher = new ResearcherImp("Carlos", "1234", "Coordenador", "05/04/2022", true);
 
@@ -112,6 +124,7 @@ void unit_researcher_isAdmin(){
     delete researcher;
 }
 
+///@brief run all unit researcher tests
 void run_unit_researcher(){
     unit_researcher_constructor();
     unit_researcher_destructor();

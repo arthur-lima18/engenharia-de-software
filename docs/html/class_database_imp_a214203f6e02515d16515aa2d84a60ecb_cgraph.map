@@ -1,0 +1,10 @@
+<map id="DatabaseImp::createSpecie" name="DatabaseImp::createSpecie">
+<area shape="rect" id="node1" title="Create a Researcher object." alt="" coords="5,81,188,108"/>
+<area shape="rect" id="node2" href="$class_specie.html#a517e4d97520cfe95610c5f345a2eaddf" title="Get the Name object." alt="" coords="473,5,596,32"/>
+<area shape="rect" id="node3" href="$class_database_imp.html#aae2caa4cc3e1e13690dd9b76e1f32e47" title="Update a Specie object." alt="" coords="236,107,400,133"/>
+<area shape="rect" id="node4" href="$class_specie.html#a9cfd5c0f5e32c14bc56d1ab464c3312c" title="Get the Habitat object." alt="" coords="470,56,599,83"/>
+<area shape="rect" id="node5" href="$class_specie.html#a2cc0c615c64b7b288763393fbdb9f3ad" title="Get the Hunting Target object." alt="" coords="451,107,619,133"/>
+<area shape="rect" id="node6" href="$class_specie.html#ada87763e95655407358ad4436d4e0df2" title="Get the Near Extinction object." alt="" coords="448,157,621,184"/>
+<area shape="rect" id="node7" href="$class_specie.html#a1b7b1f80dc7f34707e03cc9e74a6b92e" title="Get the Population object." alt="" coords="460,208,609,235"/>
+<area shape="rect" id="node8" href="$class_specie.html#ae3739577ccb1a1a0ba9249b66f0a3e42" title="Get the Predator object." alt="" coords="466,259,603,285"/>
+</map>

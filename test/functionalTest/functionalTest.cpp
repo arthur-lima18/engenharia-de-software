@@ -10,9 +10,8 @@
  */
 
 #include "functionalTest.hpp"
-#include "../../src/researcherImp.hpp"
-#include "../../src/specieImp.hpp"
 
+///@brief implementation of the only functional test
 void functionalTest(){
     Specie* specie = new SpecieImp("Jacare-acu", "Pequenos rios", 2500, true, false, false);
     Researcher* researcher = new ResearcherImp("Carlos", "1234", "Coordenador", "05/04/2022", true);

@@ -1,0 +1,7 @@
+<map id="Specie::setPredator" name="Specie::setPredator">
+<area shape="rect" id="node1" title="Set the Predator object." alt="" coords="619,5,756,32"/>
+<area shape="rect" id="node2" href="$unit_test_specie_8cpp.html#ac2af1985b4a73ab5d6c1c484c5c5fe41" title="unit test to check if the object is setting a new predator condition correctly" alt="" coords="408,5,571,32"/>
+<area shape="rect" id="node3" href="$unit_test_specie_8cpp.html#a622af37823548b1de2bb2fe052e2118a" title="run all specie tests" alt="" coords="247,5,360,32"/>
+<area shape="rect" id="node4" href="$unit_test_8cpp.html#adc55d66d01b104380f72a64f36c4cb9d" title="implemenation of the function that runs all runit tests" alt="" coords="104,5,199,32"/>
+<area shape="rect" id="node5" href="$unit_test_2main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title="main function of the unit tests" alt="" coords="5,5,56,32"/>
+</map>
