@@ -2,10 +2,10 @@
 #include "../../src/researcherImp.hpp"
 #include "../../src/specieImp.hpp"
 
-void FunctionalTest::functionalTest(){
+void functionalTest(){
     Specie* specie = new SpecieImp("Jacare-acu", "Pequenos rios", 2500, true, false, false);
     Researcher* researcher = new ResearcherImp("Carlos", "1234", "Coordenador", "05/04/2022", true);
-    DatabaseImp* database = new Database();
+    Database* database = new DatabaseImp();
 
     database->createSpecie(specie);
     database->createResearcher(researcher);
@@ -23,12 +23,12 @@ void FunctionalTest::functionalTest(){
     assert(user->getWorkingSince() == "05/04/2022");
     assert(user->isAdmin() == true);
 
-    SpecieImp* updateSpecie = new SpecieImp("Jacare-acu", "Pequenos rios", 1300, true, true, true);
+    Specie* updateSpecie = new SpecieImp("Jacare-acu", "Pequenos rios", 1300, true, true, true);
 
     database->putSpecie(updateSpecie);
 
     int positionSpecie = database->getPositionSpecie("Jacare-acu");
-    SpecieImp* newSpecie = database->getSpecie(positionSpecie);
+    Specie* newSpecie = database->getSpecie(positionSpecie);
 
     assert(newSpecie->getName() == "Jacare-acu");
     assert(newSpecie->getHabitat() == "Pequenos rios");
@@ -38,7 +38,7 @@ void FunctionalTest::functionalTest(){
     assert(newSpecie->getHuntingTarget() == true);
     
     assert(database->getSpecies().size() == 1);
-    database->deleteSpecie();
+    database->deleteSpecie(newSpecie->getName());
     assert(database->getSpecies().size() == 0);
 
     delete specie;

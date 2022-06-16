@@ -2,10 +2,10 @@ libs:
 	g++ -shared -fPIC src/*.cpp -o bin/libmyvensim.so -Wall
 
 functional tests:
-	g++ test/functional/*.cpp -L./bin bin/libmyvensim.so -Wl,-rpath,bin -o bin/functionalTests.out
+	g++ test/functionalTest/*.cpp -L./bin bin/libmyvensim.so -Wl,-rpath,bin -o bin/functionalTests.out
 
-unit tests
-	g++ test/unit/*.cpp -L./bin bin/libmyvensim.so -Wl,-rpath,bin -o bin/unitTests.out
+unit tests:
+	g++ test/unitTest/*.cpp -L./bin bin/libmyvensim.so -Wl,-rpath,bin -o bin/unitTests.out
 
 A partir do bin:
 run:
